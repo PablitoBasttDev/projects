@@ -1,0 +1,15 @@
+:root{ name: "Paleta de colores";
+--color1-color: #C06014;
+--color2-color: #EDDBCD;
+--color3-color: black;
+--color4-color: #CDCDCD;
+}
+
+body {background-color: var(--color4-color);}
+div {border-style: double; border-color: var(--color3-color); }
+footer{radius: 15px; background-color: var(--color2-color); border-radius: 15px; border-style:double; border-color:var(--color3-color);)}
+h1{font-size-adjust: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bank Gothic', sans-serif;
+    color:var(--color1-color);}
