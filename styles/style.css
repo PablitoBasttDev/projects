@@ -4,12 +4,23 @@
 --color3-color: black;
 --color4-color: #CDCDCD;
 }
+.titulo {font-family: Arial, Helvetica, sans-serif;
+color:var(--color1-color);
+font-size:30px;
+text-align: center;}
+
+.p2{font-family:}
+.p3{font-family:"Lucida Console", "Courier New", monospace;}
+
 
 body {background-color: var(--color4-color);}
-div {border-style: double; border-color: var(--color3-color); }
-footer{radius: 15px; background-color: var(--color2-color); border-radius: 15px; border-style:double; border-color:var(--color3-color);)}
-h1{font-size-adjust: 30px;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Bank Gothic', sans-serif;
-    color:var(--color1-color);}
+div { radius: 15px;
+    border-style: double; 
+    border-color: var(--color3-color); }
+footer{radius: 15px; 
+    background-color: var(--color2-color); 
+    border-radius: 15px; 
+    border-style:double; 
+    border-color:var(--color3-color);)}
+#cabecera {height: 10em; margin: 0.5em 0.5em 0em 0.5em;}
+#madeit {text-align: right; margin: 0em 0.5em 0.5em 0em}
